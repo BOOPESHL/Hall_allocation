@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seat Allocation</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <script src = "script.js" defer></script>
+</head>
+
+<body>
+    <form class = "form">
+        <div class = halls>
+            <label>Number of Halls</label>
+            <input class = "num_inp" type = "number" min = 0>
+        </div>
+        
+        <p>Capacity of each hall</p>
+        <div class = "hall-det">
+            <div class = "hall-row">
+                <label>Number of rows in each hall</label>
+                <input class = "num_inp" type = "number" min = 0>
+            </div>
+            <div class = "hall-col">
+                <label>Number of columns in each hall</label>
+                <input class = "num_inp" type = "number" min = 0>
+            </div>
+        </div>
+
+        <p>Select Department</p>
+        <div class = "check-boxes">
+            <div class = "course">
+                <label>CSE</label>
+                <input type = "checkbox" value = "cse">
+            </div>
+            <div class = "course">
+                <label>ECE</label>
+                <input type = "checkbox" value = "ece">
+            </div>
+            <div class = "course">
+                <label>EEE</label>
+                <input type = "checkbox" value = "eee">
+            </div>
+            <div class = "course">
+                <label>MECH</label>
+                <input type = "checkbox" value = "mech">
+            </div>
+            <div class = "course">
+                <label>AERO</label>
+                <input type = "checkbox" value = "aero">
+            </div>
+        </div>
+
+        <div class = "regRanges"></div>
+
+        <button type = "button">Confirm</button>
+        </div>
+    </form>
+    <div id="output"></div>
+</body>
+</html>

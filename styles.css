@@ -1,0 +1,60 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin:32px;
+}
+
+.form{
+    display:flex;
+    flex-direction:column;
+    gap:20px; 
+}
+
+.hall-det{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+}
+
+p{
+    padding:10px;
+    border-bottom:2px solid #e0e0e0;
+}
+
+button{
+    align-self: start;
+    flex-grow:0;
+    padding:4px 8px;
+    border-radius:10px;
+    
+}
+
+.check-boxes{
+    display:flex;
+    gap:10px;
+}
+
+.course{
+    display:flex;
+    align-items:center;
+    gap:4px;
+}
+
+.regRange{
+    display: flex;
+    gap:20px;
+}
+
+.regRanges{
+    display:flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+
